@@ -1,5 +1,5 @@
 {
-  "name": "the-book-of-comment-gql-1_0",
+  "name": "the-book-of-comment-mar-2026",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -10,16 +10,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
-    "apollo-server": "^3.13.0",
-    "chai": "^4.3.6",
-    "dotenv": "^16.4.7",
-    "graphql": "^16.10.0",
-    "mocha": "^11.1.0",
-    "mongodb": "^6.13.0",
-    "mongoose": "^8.9.6",
-    "nodemon": "^3.1.9",
-    "supertest": "^7.0.0"
+    "apollo-server": "^0.3.3",
+    "dotenv": "^17.2.1",
+    "graphql": "^16.9.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^7.2.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^6.3.3"
   }
 }
